@@ -1,0 +1,74 @@
+Testsuite: com.company.src.Lengths.LengthTest
+Tests run: 18, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+------------- Standard Output ---------------
+java.lang.NumberFormatException: For input string: "?"
+Could not convert Miles to KM
+java.lang.NumberFormatException: For input string: "?"
+Could not convert Miles to KM
+java.lang.NumberFormatException: For input string: "?"
+Could not convert Miles to KM
+------------- ---------------- ---------------
+
+Testcase: FeasibleLengthConversionMiletoKm2 took 0.003 sec
+Testcase: FeasibleLengthConversionMiletoKm3 took 0.001 sec
+Testcase: FeasibleLengthConversionMiletoKm4 took 0.001 sec
+Testcase: FeasibleLengthConversionkmToMile2 took 0 sec
+Testcase: FeasibleLengthConversionkmToMile3 took 0 sec
+Testcase: FeasibleLengthConversionkmToMile4 took 0 sec
+Testcase: LengthConverterTestALLFAIL took 0.002 sec
+	FAILED
+expected:<1.2> but was:<0.6214>
+junit.framework.AssertionFailedError: expected:<1.2> but was:<0.6214>
+	at com.company.src.Lengths.LengthTest.LengthConverterTestALLFAIL(LengthTest.java:95)
+
+Testcase: LengthConverterTestALLPASS took 0.001 sec
+Testcase: FeasibleLengthConversionkmToMile took 0 sec
+Testcase: FailingLengthConversionkmToMile took 0 sec
+	FAILED
+expected:<1.2> but was:<0.6214>
+junit.framework.AssertionFailedError: expected:<1.2> but was:<0.6214>
+	at com.company.src.Lengths.LengthTest.FailingLengthConversionkmToMile(LengthTest.java:121)
+
+Testcase: FailingLengthConversionMileToKm2 took 0 sec
+	FAILED
+expected:<98.0> but was:<0.1609>
+junit.framework.AssertionFailedError: expected:<98.0> but was:<0.1609>
+	at com.company.src.Lengths.LengthTest.FailingLengthConversionMileToKm2(LengthTest.java:148)
+
+Testcase: FailingLengthConversionMileToKm3 took 0 sec
+	FAILED
+expected:<8.0> but was:<0.008>
+junit.framework.AssertionFailedError: expected:<8.0> but was:<0.008>
+	at com.company.src.Lengths.LengthTest.FailingLengthConversionMileToKm3(LengthTest.java:153)
+
+Testcase: FailingLengthConversionMileToKm4 took 0.001 sec
+	FAILED
+expected:<0.0> but was:<Infinity>
+junit.framework.AssertionFailedError: expected:<0.0> but was:<Infinity>
+	at com.company.src.Lengths.LengthTest.FailingLengthConversionMileToKm4(LengthTest.java:158)
+
+Testcase: FeasibleLengthConversionMiletoKm took 0 sec
+Testcase: FailingLengthConversionkmToMile2 took 0.001 sec
+	FAILED
+expected:<9.0> but was:<3.7282>
+junit.framework.AssertionFailedError: expected:<9.0> but was:<3.7282>
+	at com.company.src.Lengths.LengthTest.FailingLengthConversionkmToMile2(LengthTest.java:126)
+
+Testcase: FailingLengthConversionkmToMile3 took 0.001 sec
+	FAILED
+expected:<15.0> but was:<62.1371>
+junit.framework.AssertionFailedError: expected:<15.0> but was:<62.1371>
+	at com.company.src.Lengths.LengthTest.FailingLengthConversionkmToMile3(LengthTest.java:131)
+
+Testcase: FailingLengthConversionkmToMile4 took 0 sec
+	FAILED
+expected:<1.0> but was:<0.0>
+junit.framework.AssertionFailedError: expected:<1.0> but was:<0.0>
+	at com.company.src.Lengths.LengthTest.FailingLengthConversionkmToMile4(LengthTest.java:136)
+
+Testcase: FailingLengthConversionMileToKm took 0 sec
+	FAILED
+expected:<3.0> but was:<1.609>
+junit.framework.AssertionFailedError: expected:<3.0> but was:<1.609>
+	at com.company.src.Lengths.LengthTest.FailingLengthConversionMileToKm(LengthTest.java:143)
+
